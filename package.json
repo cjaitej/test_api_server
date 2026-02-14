@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "server": "ts-node-dev --respawn --transpile-only src/index.ts",
     "start": "ts-node src/index.ts"
   },
